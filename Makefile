@@ -1,4 +1,4 @@
 build:
 	docker build -t chatgpttgbot .
 run:
-	docker run -d -p 3000:3000 --name chatgpttgbot --rm chatgpttgbot
+	docker run -d -p 4000:4000 --name chatgpttgbot --rm chatgpttgbot
